@@ -1,0 +1,67 @@
+#col1 {
+	/* background-color: salmon */
+}
+#col2 {
+	/* background-color:bisque */
+}
+#col3 {
+	/* background-color:crimson */
+}
+#col4 {
+	/* background-color:darkgoldenrod */
+}
+#col5 {
+	background-color:darkolivegreen
+}
+#col6 {
+	background-color:green
+}
+#col7{
+	background-color:navy
+}
+#col8{
+	background-color: lightgrey
+}
+#colcomp1 {
+	background-color: grey
+}
+#colcomp2 {
+	background-color: lightgrey
+}
+#colcomp3 {
+	background-color: lightblue
+}
+#colcomp4{
+	background-color: orange
+}
+body{
+	background-image: url("../images/background.jpg");
+    background-color:black;
+    background-position: top center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.container{
+	background-color: rgba(255, 248, 244, 0.678);
+	width:80vw;
+}
+.headerRow {
+	height:15vh;
+  }
+  .contentRow {
+	background-color: slateblue;
+	height: 70vh;
+  }
+  .content {
+	  background-color: snow;
+  }
+  .footerRow {
+	background-color: blue;
+	height: 10vh;
+  }
+  .sideBar01 {
+	background-color: grey;
+  }
+  .header{
+	  background-color: coral;
+  }
