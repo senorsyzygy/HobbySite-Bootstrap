@@ -42,26 +42,31 @@ body{
     background-size:cover;
 }
 .container{
-	background-color: rgba(255, 248, 244, 0.678);
+	background-color: rgba(255, 248, 244, 0.863);
 	width:80vw;
 }
 .headerRow {
 	height:15vh;
   }
   .contentRow {
-	background-color: slateblue;
+	/* background-color: slateblue; */
 	height: 70vh;
   }
   .content {
-	  background-color: snow;
+	  /* background-color: snow; */
   }
   .footerRow {
-	background-color: blue;
+	/* background-color:darkolivegreen; */
 	height: 10vh;
   }
   .sideBar01 {
-	background-color: grey;
+	/* background-color: grey; */
   }
   .header{
-	  background-color: coral;
+	  background-color: white;
+  }
+  .btn{
+	background-color: olive;
+    color:snow;
+    padding: 10px 15px;
   }
