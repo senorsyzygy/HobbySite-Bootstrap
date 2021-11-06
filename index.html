@@ -11,47 +11,86 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     </head>
     <body>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top alt="logo"></a>
+        <button class="navbar-toggler" type="button"
+        data-toggle="collapse"
+        data target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="churchill.html">Churchill</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cromwell.html">Cromwell</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="centurion.html">Centurion</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </nav>
         <div class="container mt-5" id="container">
             <div class="row headerRow">
-              <div class="col-12 header">
-                <div class="text-white text-center">
-                    <img src="images\Logo.png" class="float-start" alt="logo" height="150">
-                    <img src="images\Logo.png" class="float-end" alt="logo" height="150">
-                    <h1 class="display-3">British Tanks in WW2</h1>
-                    <p class="lead">Hope you enjoy your stay</p>
+              <div class="col-12 header text-center bg-image">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white">
+                    <h1 class="mb-3">British Tanks in World War Two</h1>
+                    <h5 class="mb-3">Curated selection of Tanks</h5>
+                  </div>
                 </div>
-              </div>
-            <div class="row contentRow">
-                <div class="content col-sm-12 col-md-12 col-lg-8">2</div>
-                <div class="sideBar01 col-sm-12 col-md-12 col-lg-4">3</div>
-            </div>
-            <div class="row footerRow">
-                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                    <a class="navbar-brand" href="#">Navigation</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                      <ul class="navbar-nav">
-                        <li class="nav-item active">
-                          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Page 1</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Page 2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Page 3</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Page 4</a>
-                        </li>
-                      </ul>
+                </div>
+                </div>
+                <div class="col-12">
+                </div>
+                <div class="col-12">
+                <div class="row contentRow">
+                    <div class="content col-sm-12 col-md-12 col-lg-8 p-3">
+                      <h1 class="display-3">Welcome to my website</h1>
+                      <p>You'll find several pages on some of the iconic British tanks which featured or were developed during World War Two.</p>
+                      <p>Just scroll to the bottom of the page and click on one of the navigation buttons at the top to view different tanks or you could visit our contact page if your favourite is missing.</p><br><br>
+                      <p class="lead">Which one is your favourite out of the following?</p>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Churchill">
+                        <label class="form-check-label" for="Churchill">
+                          Churchill
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Cromwell">
+                        <label class="form-check-label" for="Cromwell">
+                          Cromwell
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Centurion">
+                        <label class="form-check-label" for="Centurion">
+                          Centurion
+                        </label>
+                      </div>
                     </div>
-                  </nav>       
-            </div>
-        </div> 
+                    <div class="sideBar01 col-sm-12 col-md-12 col-lg-4 p-2">
+                        <img src="images/Sidebar.png" alt="Sidebar tanks">
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        </div>
     </body>
 </html>
