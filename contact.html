@@ -11,12 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container-fluid">
             <a class="navbar-brand" href="index.html">
-                <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top alt="logo">
-                British Tanks in WW2
-            </a>
+                <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top alt="logo"></a>
             <button class="navbar-toggler" type="button"
             data-toggle="collapse"
             data target="#navbarSupportedContent"
@@ -28,6 +26,9 @@
         <div class="collapse navbar-collapse"></div>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
                 <li class="nav-item">
                   <a class="nav-link" href="churchill.html">Churchill</a>
                 </li>
@@ -46,22 +47,53 @@
           </nav>
         <div class="container mt-5" id="container">
             <div class="row headerRow">
-              <div class="col-12 header">
-                <div class="text-center">
-                    <img src="images\Logo.png" class="float-start" alt="logo" height="150">
-                    <img src="images\Logo.png" class="float-end" alt="logo" height="150">
-                    <h1 class="display-3">British Tanks in WW2</h1>
-                    <h5 class="lead">Hope you enjoy your stay</h5>
-                </div>
-              </div>
-            </div>
+                <div class="col-12 header text-center bg-image">
+                  <div class="d-flex justify-content-center align-items-center h-100">
+                    <div class="text-white">
+                      <h1 class="mb-3">British Tanks in World War Two</h1>
+                      <h5 class="mb-3">Curated selection of Tanks</h5>
+                    </div>
+                  </div>
+                  </div>
+                  </div>
             <div class="col-12">
             </div>
             <div class="col-12">
             <div class="row contentRow">
-                <div class="content col-sm-12 col-md-12 col-lg-8 p-3"></div>
+                <div class="content col-sm-12 col-md-12 col-lg-8 p-3">
+                    <h1 class="display-3">Contact us</h1>
+                    <p>Perhaps we have not included your favourite British tank from World War Two, if this is the case then please feel free to contact us via the form below</p>
+                    <p>We would love to hear your suggestions on which tank to do a page on next!</p>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4">
+                            <label for="validationCustom1" class="form-label">First name</label>
+                            <input type="text" class="form-label" id="validationCustom1" value="Enter" required>
+                            <div class="valid-feedback">Looking groovy</div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom2" class="form-label">Email</label>
+                            <input type="text" class="form-label" id="validationCustom2" value="Enter" required>
+                            <div class="valid-feedback">Looking groovy</div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom3" class="form-label">Tank name</label>
+                            <input type="text" class="form-label" id="validationCustom3" value="Enter" required>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                <label class="form-check-label" for="invalidCheck">Agree to being emailed to follow up</label>
+                                <div class="invalid-feedback">You must agree before submitting</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary" type="submit">Submit</button>
+                        </div>
+                    </form>
                 </div>
                 <div class="sideBar01 col-sm-12 col-md-12 col-lg-4 p-2">
+                    <h2>Yours could be next!</h2>
+                    <img src="images/ChooseTank.jpg" alt="Tank question mark" class="img-thumbnail">
                 </div>
             </div>
             </div>

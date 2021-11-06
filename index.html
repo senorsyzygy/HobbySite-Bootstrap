@@ -11,12 +11,10 @@
 	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     </head>
     <body>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-            <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top alt="logo">
-            British Tanks in WW2
-        </a>
+            <img src="images/Logo.png" width="30" height="30" class="d-inline-block align-top alt="logo"></a>
         <button class="navbar-toggler" type="button"
         data-toggle="collapse"
         data target="#navbarSupportedContent"
@@ -28,6 +26,9 @@
     <div class="collapse navbar-collapse"></div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+          </li>
             <li class="nav-item active">
               <a class="nav-link" href="churchill.html">Churchill</a>
             </li>
@@ -46,26 +47,55 @@
       </nav>
         <div class="container mt-5" id="container">
             <div class="row headerRow">
-              <div class="col-12 header">
-                <div class="text-white text-center">
-                    <img src="images\Logo.png" class="float-start" alt="logo" height="150">
-                    <img src="images\Logo.png" class="float-end" alt="logo" height="150">
-                    <h1 class="display-3">British Tanks in WW2</h1>
-                    <p class="lead">Hope you enjoy your stay</p>
+              <div class="col-12 header text-center bg-image">
+                <div class="d-flex justify-content-center align-items-center h-100">
+                  <div class="text-white">
+                    <h1 class="mb-3">British Tanks in World War Two</h1>
+                    <h5 class="mb-3">Curated selection of Tanks</h5>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col-12">
-            <div class="row contentRow">
-                <div class="content col-sm-12 col-md-12 col-lg-8 p-4">
-                  <h2>Title</h2>
-                  <h5>Title sub</h5>
-                  <p>Some text</p>
-                  <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt, voluptatum iusto facilis quo nisi harum repellendus ea quasi labore a, voluptas quam laborum eum quaerat impedit! Earum possimus enim sequi.</p>
                 </div>
-                <div class="sideBar01 col-sm-12 col-md-12 col-lg-4">3</div>
-            </div>
-            </div>
-        </div> 
+                </div>
+                <div class="col-12">
+                </div>
+                <div class="col-12">
+                <div class="row contentRow">
+                    <div class="content col-sm-12 col-md-12 col-lg-8 p-3">
+                      <h1 class="display-3">Welcome to my website</h1>
+                      <p>You'll find several pages on some of the iconic British tanks which featured or were developed during World War Two.</p>
+                      <p>Just scroll to the bottom of the page and click on one of the navigation buttons at the top to view different tanks or you could visit our contact page if your favourite is missing.</p><br><br>
+                      <p class="lead">Which one is your favourite out of the following?</p>
+                      <form class="row g-3 needs-validation" novalidate>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Churchill">
+                        <label class="form-check-label" for="Churchill">
+                          Churchill
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Cromwell">
+                        <label class="form-check-label" for="Cromwell">
+                          Cromwell
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="Centurion">
+                        <label class="form-check-label" for="Centurion">
+                          Centurion
+                        </label>
+                      </div>
+                      <div class="col-4">
+                      <button class="btn btn-primary" type="submit">Submit Answer</button>
+                      </div>
+                      </form>
+                    </div>
+                    <div class="sideBar01 col-sm-12 col-md-12 col-lg-4 p-2">
+                        <img src="images/Sidebar.png" alt="Sidebar tanks">
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        </div>
     </body>
 </html>

@@ -1,39 +1,3 @@
-#col1 {
-	/* background-color: salmon */
-}
-#col2 {
-	/* background-color:bisque */
-}
-#col3 {
-	/* background-color:crimson */
-}
-#col4 {
-	/* background-color:darkgoldenrod */
-}
-#col5 {
-	background-color:darkolivegreen
-}
-#col6 {
-	background-color:green
-}
-#col7{
-	background-color:navy
-}
-#col8{
-	background-color: lightgrey
-}
-#colcomp1 {
-	background-color: grey
-}
-#colcomp2 {
-	background-color: lightgrey
-}
-#colcomp3 {
-	background-color: lightblue
-}
-#colcomp4{
-	background-color: orange
-}
 body{
 	background-image: url("../images/background.jpg");
     background-color:black;
@@ -42,35 +6,21 @@ body{
     background-size:cover;
 }
 .container{
-	background-color: rgba(255, 248, 244, 0.863);
+	background-color: rgba(255, 248, 244, 0.856);
 	width:80vw;
 }
 .headerRow {
 	height:15%;
+	margin-top: 58px;
   }
-  .contentRow {
-	/* background-color: slateblue; */
+.contentRow {
 	height: 85%;
   }
-  .content {
-	  /* background-color: snow; */
-  }
-  .footerRow {
-	/* background-color:darkolivegreen; */
-	height: 10vh;
-  }
-  .sideBar01 {
-	/* background-color: grey; */
-  }
-  .header{
-	  background-color: white;
-  }
-  .btn{
-	background-color: olive;
-    color:snow;
-    padding: 10px 15px;
-  }
-  .vid{
+.header {
+	background-image: url("../images/header.jpg");
+	height: 168px;
+}
+.vid{
     width:100%;
     display:flex;
     justify-content: center;
